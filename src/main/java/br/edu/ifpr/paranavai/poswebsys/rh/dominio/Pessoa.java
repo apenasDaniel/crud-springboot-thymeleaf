@@ -73,7 +73,7 @@ public class Pessoa {
 	public void setTelefone(String telefone) {
 		this.telefone = telefone;
 	}
-	@DateTimeFormat(style = "yyyy-MM-dd")
+	@DateTimeFormat(pattern = "yyyy-MM-dd")
 	private LocalDate dataNascimento;
 	
 	private String cpf;
